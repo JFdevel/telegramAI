@@ -17,7 +17,7 @@ def object_detection_on_an_image():
         # segment_target_classes=target_class,
         # extract_segmented_objects=True,
         # save_extracted_objects=True,
-        output_image_name="output.jpg"
+        fn_output_signature="output.jpg"
     )
 
     # print(result[0]["scores"])
